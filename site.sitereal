@@ -1606,6 +1606,7 @@
       "title": "Bathroom Fitters & Design in Solihull",
       "root": [
         {
+          "id": "r-section-1zq",
           "tag": "section",
           "classes": [
             "cvm-hero"
@@ -1613,10 +1614,9 @@
           "attrs": {
             "builder-data-element": "section"
           },
-          "name": "cvm hero",
-          "id": "section-mw4tj6et-1500",
           "children": [
             {
+              "id": "r-div-1zr",
               "tag": "div",
               "classes": [
                 "cvm-hero__container"
@@ -1624,10 +1624,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1501",
               "children": [
                 {
+                  "id": "r-div-1zs",
                   "tag": "div",
                   "classes": [
                     "cvm-hero__content"
@@ -1635,60 +1634,67 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "content",
-                  "id": "div-mw4tj6et-1502",
                   "children": [
                     {
+                      "id": "r-p-1zt",
                       "tag": "p",
                       "classes": [
                         "cvm-hero__eyebrow"
                       ],
-                      "text": "C.V.M PLUMBING & BATHROOMS · SOLIHULL",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1503"
+                      "text": "C.V.M PLUMBING & BATHROOMS · SOLIHULL"
                     },
                     {
-                      "tag": "h1",
-                      "classes": [
-                        "cvm-hero__title"
-                      ],
-                      "text": "This is a test of a test <br>",
+                      "id": "r-condition-1zu",
+                      "tag": "condition",
                       "attrs": {
-                        "builder-data-element": "heading"
+                        "builder-data-element": "condition"
                       },
-                      "name": "title",
-                      "id": "h1-mw4tj6et-1504",
+                      "cond": {
+                        "mode": "custom"
+                      },
                       "children": [
                         {
-                          "tag": "span",
+                          "id": "r-h1-1zv",
+                          "tag": "h1",
                           "classes": [
-                            "cvm-hero__highlight"
+                            "cvm-hero__title"
                           ],
-                          "text": "Built around you.",
                           "attrs": {
-                            "builder-data-element": "span"
+                            "builder-data-element": "heading"
                           },
-                          "name": "highlight",
-                          "id": "span-mw4tj6et-1505"
+                          "text": "I love burger nip\n            <br>",
+                          "children": [
+                            {
+                              "id": "r-span-1zw",
+                              "tag": "span",
+                              "classes": [
+                                "cvm-hero__highlight"
+                              ],
+                              "attrs": {
+                                "builder-data-element": "span"
+                              },
+                              "text": "Built around you."
+                            }
+                          ]
                         }
                       ]
                     },
                     {
+                      "id": "r-p-1zx",
                       "tag": "p",
                       "classes": [
                         "cvm-hero__intro"
                       ],
-                      "text": "From the first design ideas to the final fitting, create a bathroom that works beautifully for your home. Local expertise, practical advice and care in every detail.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "intro",
-                      "id": "p-mw4tj6et-1506"
+                      "text": "From the first design ideas to the final fitting, create a bathroom that works beautifully for your home. Local expertise, practical advice and care in every detail."
                     },
                     {
+                      "id": "r-div-1zy",
                       "tag": "div",
                       "classes": [
                         "cvm-hero__actions"
@@ -1696,10 +1702,9 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "actions",
-                      "id": "div-mw4tj6et-1507",
                       "children": [
                         {
+                          "id": "r-a-1zz",
                           "tag": "a",
                           "classes": [
                             "cvm-hero__cta",
@@ -1710,11 +1715,10 @@
                             "builder-data-element": "link",
                             "href": "#contact"
                           },
-                          "text": "Let’s plan your bathroom ↗",
-                          "name": "cta",
-                          "id": "a-mw4tj6et-1508"
+                          "text": "Let’s plan your bathroom ↗"
                         },
                         {
+                          "id": "r-a-200",
                           "tag": "a",
                           "classes": [
                             "cvm-hero__call"
@@ -1723,13 +1727,12 @@
                             "builder-data-element": "link",
                             "href": "tel:07748601792"
                           },
-                          "text": "07748 601792",
-                          "name": "call",
-                          "id": "a-mw4tj6et-1509"
+                          "text": "07748 601792"
                         }
                       ]
                     },
                     {
+                      "id": "r-div-201",
                       "tag": "div",
                       "classes": [
                         "cvm-hero__proof"
@@ -1737,10 +1740,9 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "proof",
-                      "id": "div-mw4tj6et-1510",
                       "children": [
                         {
+                          "id": "r-span-202",
                           "tag": "span",
                           "classes": [
                             "cvm-hero__stars"
@@ -1749,23 +1751,21 @@
                             "builder-data-element": "span",
                             "aria-label": "5 out of 5 stars"
                           },
-                          "text": "★★★★★",
-                          "name": "stars",
-                          "id": "span-mw4tj6et-1511"
+                          "text": "★★★★★"
                         },
                         {
+                          "id": "r-p-203",
                           "tag": "p",
                           "classes": [
                             "cvm-hero__rating"
                           ],
-                          "text": "5.00 from 50 published reviews<br>",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "rating",
-                          "id": "p-mw4tj6et-1512",
+                          "text": "5.00 from 50 published reviews<br>",
                           "children": [
                             {
+                              "id": "r-a-204",
                               "tag": "a",
                               "classes": [
                                 "cvm-hero__review-link"
@@ -1774,9 +1774,7 @@
                                 "builder-data-element": "link",
                                 "href": "#reviews"
                               },
-                              "text": "See what C.V.M customers say",
-                              "name": "review link",
-                              "id": "a-mw4tj6et-1513"
+                              "text": "See what C.V.M customers say"
                             }
                           ]
                         }
@@ -1785,6 +1783,7 @@
                   ]
                 },
                 {
+                  "id": "r-div-205",
                   "tag": "div",
                   "classes": [
                     "cvm-hero__visual"
@@ -1792,10 +1791,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "visual",
-                  "id": "div-mw4tj6et-1514",
                   "children": [
                     {
+                      "id": "r-img-206",
                       "tag": "img",
                       "classes": [
                         "cvm-hero__image"
@@ -1808,11 +1806,10 @@
                         "height": "1200",
                         "loading": "eager",
                         "fetchpriority": "high"
-                      },
-                      "name": "image",
-                      "id": "img-mw4tj6et-1515"
+                      }
                     },
                     {
+                      "id": "r-div-207",
                       "tag": "div",
                       "classes": [
                         "cvm-hero__image-caption"
@@ -1820,32 +1817,28 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "image caption",
-                      "id": "div-mw4tj6et-1516",
                       "children": [
                         {
+                          "id": "r-span-208",
                           "tag": "span",
                           "classes": [
                             "cvm-hero__caption-title"
                           ],
-                          "text": "Your space. Reimagined.",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "caption title",
-                          "id": "span-mw4tj6et-1517"
+                          "text": "Your space. Reimagined."
                         },
                         {
+                          "id": "r-span-209",
                           "tag": "span",
                           "classes": [
                             "cvm-hero__caption-detail"
                           ],
-                          "text": "DESIGN · FITTING · FINISHING",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "caption detail",
-                          "id": "span-mw4tj6et-1518"
+                          "text": "DESIGN · FITTING · FINISHING"
                         }
                       ]
                     }
@@ -1856,6 +1849,7 @@
           ]
         },
         {
+          "id": "r-section-20a",
           "tag": "section",
           "classes": [
             "cvm-trust"
@@ -1863,10 +1857,9 @@
           "attrs": {
             "builder-data-element": "section"
           },
-          "name": "cvm trust",
-          "id": "section-mw4tj6et-1519",
           "children": [
             {
+              "id": "r-div-20b",
               "tag": "div",
               "classes": [
                 "cvm-trust__container"
@@ -1874,62 +1867,57 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1520",
               "children": [
                 {
+                  "id": "r-span-20c",
                   "tag": "span",
                   "classes": [
                     "cvm-trust__item"
                   ],
-                  "text": "✓ Based in Solihull",
                   "attrs": {
                     "builder-data-element": "span"
                   },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1521"
+                  "text": "✓ Based in Solihull"
                 },
                 {
+                  "id": "r-span-20d",
                   "tag": "span",
                   "classes": [
                     "cvm-trust__item"
                   ],
-                  "text": "✓ Family-run business",
                   "attrs": {
                     "builder-data-element": "span"
                   },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1522"
+                  "text": "✓ Family-run business"
                 },
                 {
+                  "id": "r-span-20e",
                   "tag": "span",
                   "classes": [
                     "cvm-trust__item"
                   ],
-                  "text": "✓ Established since 2005",
                   "attrs": {
                     "builder-data-element": "span"
                   },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1523"
+                  "text": "✓ Established since 2005"
                 },
                 {
+                  "id": "r-span-20f",
                   "tag": "span",
                   "classes": [
                     "cvm-trust__item"
                   ],
-                  "text": "✓ Design through to installation",
                   "attrs": {
                     "builder-data-element": "span"
                   },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1524"
+                  "text": "✓ Design through to installation"
                 }
               ]
             }
           ]
         },
         {
+          "id": "r-section-20g",
           "tag": "section",
           "classes": [
             "cvm-services"
@@ -1938,10 +1926,9 @@
             "builder-data-element": "section",
             "id": "services"
           },
-          "name": "cvm services",
-          "id": "section-mw4tj6et-1525",
           "children": [
             {
+              "id": "r-div-20h",
               "tag": "div",
               "classes": [
                 "cvm-services__container"
@@ -1949,10 +1936,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1526",
               "children": [
                 {
+                  "id": "r-div-20i",
                   "tag": "div",
                   "classes": [
                     "cvm-services__heading"
@@ -1960,10 +1946,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "heading",
-                  "id": "div-mw4tj6et-1527",
                   "children": [
                     {
+                      "id": "r-div-20j",
                       "tag": "div",
                       "classes": [
                         "cvm-services__intro"
@@ -1971,50 +1956,46 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "intro",
-                      "id": "div-mw4tj6et-1528",
                       "children": [
                         {
+                          "id": "r-p-20k",
                           "tag": "p",
                           "classes": [
                             "cvm-services__eyebrow"
                           ],
-                          "text": "OUR SERVICES",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "eyebrow",
-                          "id": "p-mw4tj6et-1529"
+                          "text": "OUR SERVICES"
                         },
                         {
+                          "id": "r-h2-20l",
                           "tag": "h2",
                           "classes": [
                             "cvm-services__title"
                           ],
-                          "text": "One bathroom.<br>Every detail considered.",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "title",
-                          "id": "h2-mw4tj6et-1530"
+                          "text": "One bathroom.<br>Every detail considered."
                         }
                       ]
                     },
                     {
+                      "id": "r-p-20m",
                       "tag": "p",
                       "classes": [
                         "cvm-services__description"
                       ],
-                      "text": "Whether you’re replacing a tired suite or planning a complete transformation, we bring the design and installation together. Explore our bathroom services in Solihull.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "description",
-                      "id": "p-mw4tj6et-1531"
+                      "text": "Whether you’re replacing a tired suite or planning a complete transformation, we bring the design and installation together. Explore our bathroom services in Solihull."
                     }
                   ]
                 },
                 {
+                  "id": "r-div-20n",
                   "tag": "div",
                   "classes": [
                     "cvm-services__grid"
@@ -2022,10 +2003,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "grid",
-                  "id": "div-mw4tj6et-1532",
                   "children": [
                     {
+                      "id": "r-inst-20o",
                       "tag": "div",
                       "component": "cmp-bathroomservice",
                       "props": {
@@ -2036,10 +2016,10 @@
                         "alt": "Bathroom with a freestanding bath and a separate shower",
                         "link": "#bathroom-fitting",
                         "features": "New suites · Refurbishments · En suites"
-                      },
-                      "id": "div-mw4tj6et-1533"
+                      }
                     },
                     {
+                      "id": "r-inst-20p",
                       "tag": "div",
                       "component": "cmp-bathroomservice",
                       "props": {
@@ -2050,8 +2030,7 @@
                         "alt": "Bathroom design inspiration with a walk-in shower and contemporary vanity",
                         "link": "#bathroom-design",
                         "features": "Layout planning · Fixtures · Finishes"
-                      },
-                      "id": "div-mw4tj6et-1534"
+                      }
                     }
                   ]
                 }
@@ -2060,6 +2039,7 @@
           ]
         },
         {
+          "id": "r-section-20q",
           "tag": "section",
           "classes": [
             "cvm-about"
@@ -2068,10 +2048,9 @@
             "builder-data-element": "section",
             "id": "about"
           },
-          "name": "cvm about",
-          "id": "section-mw4tj6et-1535",
           "children": [
             {
+              "id": "r-div-20r",
               "tag": "div",
               "classes": [
                 "cvm-about__container"
@@ -2079,10 +2058,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1536",
               "children": [
                 {
+                  "id": "r-div-20s",
                   "tag": "div",
                   "classes": [
                     "cvm-about__visual"
@@ -2090,10 +2068,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "visual",
-                  "id": "div-mw4tj6et-1537",
                   "children": [
                     {
+                      "id": "r-img-20t",
                       "tag": "img",
                       "classes": [
                         "cvm-about__image"
@@ -2105,11 +2082,10 @@
                         "width": "1000",
                         "height": "800",
                         "loading": "lazy"
-                      },
-                      "name": "image",
-                      "id": "img-mw4tj6et-1538"
+                      }
                     },
                     {
+                      "id": "r-div-20u",
                       "tag": "div",
                       "classes": [
                         "cvm-about__badge"
@@ -2117,38 +2093,35 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "badge",
-                      "id": "div-mw4tj6et-1539",
                       "children": [
                         {
+                          "id": "r-span-20v",
                           "tag": "span",
                           "classes": [
                             "cvm-about__badge-number"
                           ],
-                          "text": "2005",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "badge number",
-                          "id": "span-mw4tj6et-1540"
+                          "text": "2026"
                         },
                         {
+                          "id": "r-span-20w",
                           "tag": "span",
                           "classes": [
                             "cvm-about__badge-label"
                           ],
-                          "text": "WHEN OUR STORY BEGAN",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "badge label",
-                          "id": "span-mw4tj6et-1541"
+                          "text": "WHEN OUR STORY BEGAN"
                         }
                       ]
                     }
                   ]
                 },
                 {
+                  "id": "r-div-20x",
                   "tag": "div",
                   "classes": [
                     "cvm-about__content"
@@ -2156,70 +2129,64 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "content",
-                  "id": "div-mw4tj6et-1542",
                   "children": [
                     {
+                      "id": "r-p-20y",
                       "tag": "p",
                       "classes": [
                         "cvm-about__eyebrow"
                       ],
-                      "text": "MEET YOUR LOCAL TEAM",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1543"
+                      "text": "MEET YOUR LOCAL TEAM"
                     },
                     {
+                      "id": "r-h2-20z",
                       "tag": "h2",
                       "classes": [
                         "cvm-about__title"
                       ],
-                      "text": "A local team.<br>A personal approach.",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "title",
-                      "id": "h2-mw4tj6et-1544"
+                      "text": "A local team.<br>A personal blozza."
                     },
                     {
+                      "id": "r-p-210",
                       "tag": "p",
                       "classes": [
                         "cvm-about__lead"
                       ],
-                      "text": "Led by Chris, C.V.M is a family-run business helping homeowners bring their bathroom ideas to life.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "lead",
-                      "id": "p-mw4tj6et-1545"
+                      "text": "Led by Chris, C.V.M is a family-run business helping homeowners bring their bathroom ideas to life."
                     },
                     {
+                      "id": "r-p-211",
                       "tag": "p",
                       "classes": [
                         "cvm-about__text"
                       ],
-                      "text": "Choosing a bathroom fitter is about more than the finished room. You need someone who listens, explains the options and understands the practical details behind the tiles.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "text",
-                      "id": "p-mw4tj6et-1546"
+                      "text": "Choosing a crack dealer fitter is about more than the finished room. You need someone who listens, explains the options and understands the practical details behind the tiles."
                     },
                     {
+                      "id": "r-p-212",
                       "tag": "p",
                       "classes": [
                         "cvm-about__text"
                       ],
-                      "text": "Based at 2 Lingham Close in Solihull, we combine bathroom refurbishment and plumbing experience with straightforward advice. Talk to us about the way you want your room to look, feel and function.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "text",
-                      "id": "p-mw4tj6et-1547"
+                      "text": "Based at 2 Lingham Close in Solihull, we combine bathroom refurbishment and plumbing experience with straightforward advice. Talk to us about the way you want your room to look, feel and function."
                     },
                     {
+                      "id": "r-a-213",
                       "tag": "a",
                       "classes": [
                         "cvm-about__cta",
@@ -2231,9 +2198,7 @@
                         "builder-data-element": "link",
                         "href": "#contact"
                       },
-                      "text": "Talk through your ideas ↗",
-                      "name": "cta",
-                      "id": "a-mw4tj6et-1548"
+                      "text": "Talk through your ideas ↗"
                     }
                   ]
                 }
@@ -2242,6 +2207,7 @@
           ]
         },
         {
+          "id": "r-section-214",
           "tag": "section",
           "classes": [
             "cvm-fitting"
@@ -2250,10 +2216,9 @@
             "builder-data-element": "section",
             "id": "bathroom-fitting"
           },
-          "name": "cvm fitting",
-          "id": "section-mw4tj6et-1549",
           "children": [
             {
+              "id": "r-div-215",
               "tag": "div",
               "classes": [
                 "cvm-fitting__container"
@@ -2261,10 +2226,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1550",
               "children": [
                 {
+                  "id": "r-div-216",
                   "tag": "div",
                   "classes": [
                     "cvm-fitting__content"
@@ -2272,58 +2236,53 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "content",
-                  "id": "div-mw4tj6et-1551",
                   "children": [
                     {
+                      "id": "r-p-217",
                       "tag": "p",
                       "classes": [
                         "cvm-fitting__eyebrow"
                       ],
-                      "text": "BATHROOM FITTING IN SOLIHULL",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1552"
+                      "text": "BATHROOM FITTING IN SOLIHULL"
                     },
                     {
+                      "id": "r-h2-218",
                       "tag": "h2",
                       "classes": [
                         "cvm-fitting__title"
                       ],
-                      "text": "From old bathroom<br>to your new favourite room.",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "title",
-                      "id": "h2-mw4tj6et-1553"
+                      "text": "From old bathroom<br>to your new favourite room."
                     },
                     {
+                      "id": "r-p-219",
                       "tag": "p",
                       "classes": [
                         "cvm-fitting__text"
                       ],
-                      "text": "A good bathroom installation starts with the work you don’t see. The plumbing, preparation and positioning all need to support a room that looks good and is comfortable to use every day.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "text",
-                      "id": "p-mw4tj6et-1554"
+                      "text": "A good bathroom installation starts with the work you don’t see. The plumbing, preparation and positioning all need to support a room that looks good and is comfortable to use every day."
                     },
                     {
+                      "id": "r-p-21a",
                       "tag": "p",
                       "classes": [
                         "cvm-fitting__text"
                       ],
-                      "text": "C.V.M can help with complete bathroom refits, replacement suites and en suites. We discuss the scope before work begins, including any changes to the existing layout, so you understand what your project involves.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "text",
-                      "id": "p-mw4tj6et-1555"
+                      "text": "C.V.M can help with complete bathroom refits, replacement suites and en suites. We discuss the scope before work begins, including any changes to the existing layout, so you understand what your project involves."
                     },
                     {
+                      "id": "r-ul-21b",
                       "tag": "ul",
                       "classes": [
                         "cvm-fitting__list"
@@ -2331,60 +2290,55 @@
                       "attrs": {
                         "builder-data-element": "list"
                       },
-                      "name": "list",
-                      "id": "ul-mw4tj6et-1556",
                       "children": [
                         {
+                          "id": "r-li-21c",
                           "tag": "li",
                           "classes": [
                             "cvm-fitting__item"
                           ],
-                          "text": "Bathroom suite and shower installation",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "item",
-                          "id": "li-mw4tj6et-1557"
+                          "text": "Bathroom suite and shower installation"
                         },
                         {
+                          "id": "r-li-21d",
                           "tag": "li",
                           "classes": [
                             "cvm-fitting__item"
                           ],
-                          "text": "Plumbing alterations and replacement fittings",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "item",
-                          "id": "li-mw4tj6et-1558"
+                          "text": "Plumbing alterations and replacement fittings"
                         },
                         {
+                          "id": "r-li-21e",
                           "tag": "li",
                           "classes": [
                             "cvm-fitting__item"
                           ],
-                          "text": "Tiling and finishing as part of your refit",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "item",
-                          "id": "li-mw4tj6et-1559"
+                          "text": "Tiling and finishing as part of your refit"
                         },
                         {
+                          "id": "r-li-21f",
                           "tag": "li",
                           "classes": [
                             "cvm-fitting__item"
                           ],
-                          "text": "Small bathrooms, en suites and shower rooms",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "item",
-                          "id": "li-mw4tj6et-1560"
+                          "text": "Small bathrooms, en suites and shower rooms"
                         }
                       ]
                     },
                     {
+                      "id": "r-a-21g",
                       "tag": "a",
                       "classes": [
                         "cvm-fitting__cta",
@@ -2395,13 +2349,12 @@
                         "builder-data-element": "link",
                         "href": "#contact"
                       },
-                      "text": "Discuss a bathroom refit ↗",
-                      "name": "cta",
-                      "id": "a-mw4tj6et-1561"
+                      "text": "Discuss a bathroom refit ↗"
                     }
                   ]
                 },
                 {
+                  "id": "r-div-21h",
                   "tag": "div",
                   "classes": [
                     "cvm-fitting__visual"
@@ -2409,10 +2362,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "visual",
-                  "id": "div-mw4tj6et-1562",
                   "children": [
                     {
+                      "id": "r-img-21i",
                       "tag": "img",
                       "classes": [
                         "cvm-fitting__image"
@@ -2424,21 +2376,18 @@
                         "width": "1000",
                         "height": "1100",
                         "loading": "lazy"
-                      },
-                      "name": "image",
-                      "id": "img-mw4tj6et-1563"
+                      }
                     },
                     {
+                      "id": "r-p-21j",
                       "tag": "p",
                       "classes": [
                         "cvm-fitting__caption"
                       ],
-                      "text": "The details make the difference.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "caption",
-                      "id": "p-mw4tj6et-1564"
+                      "text": "The details make the difference."
                     }
                   ]
                 }
@@ -2447,6 +2396,7 @@
           ]
         },
         {
+          "id": "r-section-21k",
           "tag": "section",
           "classes": [
             "cvm-design"
@@ -2455,10 +2405,9 @@
             "builder-data-element": "section",
             "id": "bathroom-design"
           },
-          "name": "cvm design",
-          "id": "section-mw4tj6et-1565",
           "children": [
             {
+              "id": "r-div-21l",
               "tag": "div",
               "classes": [
                 "cvm-design__container"
@@ -2466,46 +2415,42 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1566",
               "children": [
                 {
+                  "id": "r-p-21m",
                   "tag": "p",
                   "classes": [
                     "cvm-design__eyebrow"
                   ],
-                  "text": "BATHROOM DESIGN IN SOLIHULL",
                   "attrs": {
                     "builder-data-element": "text"
                   },
-                  "name": "eyebrow",
-                  "id": "p-mw4tj6et-1567"
+                  "text": "BATHROOM DESIGN IN SOLIHULL"
                 },
                 {
+                  "id": "r-h2-21n",
                   "tag": "h2",
                   "classes": [
                     "cvm-design__title"
                   ],
-                  "text": "Looks beautiful.<br>Works for real life.",
                   "attrs": {
                     "builder-data-element": "heading"
                   },
-                  "name": "title",
-                  "id": "h2-mw4tj6et-1568"
+                  "text": "Looks beautiful.<br>Works for real life."
                 },
                 {
+                  "id": "r-p-21o",
                   "tag": "p",
                   "classes": [
                     "cvm-design__intro"
                   ],
-                  "text": "Your bathroom should suit your home and your routine. We help you think through the layout and the practical choices before installation begins.",
                   "attrs": {
                     "builder-data-element": "text"
                   },
-                  "name": "intro",
-                  "id": "p-mw4tj6et-1569"
+                  "text": "Your bathroom should suit your home and your routine. We help you think through the layout and the practical choices before installation begins."
                 },
                 {
+                  "id": "r-div-21p",
                   "tag": "div",
                   "classes": [
                     "cvm-design__grid"
@@ -2513,10 +2458,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "grid",
-                  "id": "div-mw4tj6et-1570",
                   "children": [
                     {
+                      "id": "r-article-21q",
                       "tag": "article",
                       "classes": [
                         "cvm-design__item"
@@ -2524,48 +2468,44 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "item",
-                      "id": "article-mw4tj6et-1571",
                       "children": [
                         {
+                          "id": "r-span-21r",
                           "tag": "span",
                           "classes": [
                             "cvm-design__number"
                           ],
-                          "text": "01 / SPACE",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1572"
+                          "text": "01 / SPACE"
                         },
                         {
+                          "id": "r-h3-21s",
                           "tag": "h3",
                           "classes": [
                             "cvm-design__item-title"
                           ],
-                          "text": "A smarter layout",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "item title",
-                          "id": "h3-mw4tj6et-1573"
+                          "text": "A smarter layout"
                         },
                         {
+                          "id": "r-p-21t",
                           "tag": "p",
                           "classes": [
                             "cvm-design__text"
                           ],
-                          "text": "Explore where the bath, shower and basin work best, with enough room to move and storage where you need it.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1574"
+                          "text": "Explore where the bath, shower and basin work best, with enough room to move and storage where you need it."
                         }
                       ]
                     },
                     {
+                      "id": "r-article-21u",
                       "tag": "article",
                       "classes": [
                         "cvm-design__item"
@@ -2573,48 +2513,44 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "item",
-                      "id": "article-mw4tj6et-1575",
                       "children": [
                         {
+                          "id": "r-span-21v",
                           "tag": "span",
                           "classes": [
                             "cvm-design__number"
                           ],
-                          "text": "02 / STYLE",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1576"
+                          "text": "02 / STYLE"
                         },
                         {
+                          "id": "r-h3-21w",
                           "tag": "h3",
                           "classes": [
                             "cvm-design__item-title"
                           ],
-                          "text": "Your kind of finish",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "item title",
-                          "id": "h3-mw4tj6et-1577"
+                          "text": "Your kind of finish"
                         },
                         {
+                          "id": "r-p-21x",
                           "tag": "p",
                           "classes": [
                             "cvm-design__text"
                           ],
-                          "text": "Bring together tiles, brassware and bathroom furniture for a consistent look, from clean and contemporary to warm and understated.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1578"
+                          "text": "Bring together tiles, brassware and bathroom furniture for a consistent look, from clean and contemporary to warm and understated."
                         }
                       ]
                     },
                     {
+                      "id": "r-article-21y",
                       "tag": "article",
                       "classes": [
                         "cvm-design__item"
@@ -2622,44 +2558,39 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "item",
-                      "id": "article-mw4tj6et-1579",
                       "children": [
                         {
+                          "id": "r-span-21z",
                           "tag": "span",
                           "classes": [
                             "cvm-design__number"
                           ],
-                          "text": "03 / PRACTICALITY",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1580"
+                          "text": "03 / PRACTICALITY"
                         },
                         {
+                          "id": "r-h3-220",
                           "tag": "h3",
                           "classes": [
                             "cvm-design__item-title"
                           ],
-                          "text": "Details that matter",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "item title",
-                          "id": "h3-mw4tj6et-1581"
+                          "text": "Details that matter"
                         },
                         {
+                          "id": "r-p-221",
                           "tag": "p",
                           "classes": [
                             "cvm-design__text"
                           ],
-                          "text": "Consider easy cleaning, everyday access and the existing plumbing alongside the design, with options discussed around your budget.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1582"
+                          "text": "Consider easy cleaning, everyday access and the existing plumbing alongside the design, with options discussed around your budget."
                         }
                       ]
                     }
@@ -2670,6 +2601,7 @@
           ]
         },
         {
+          "id": "r-section-222",
           "tag": "section",
           "classes": [
             "cvm-process"
@@ -2678,10 +2610,9 @@
             "builder-data-element": "section",
             "id": "process"
           },
-          "name": "cvm process",
-          "id": "section-mw4tj6et-1583",
           "children": [
             {
+              "id": "r-div-223",
               "tag": "div",
               "classes": [
                 "cvm-process__container"
@@ -2689,10 +2620,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1584",
               "children": [
                 {
+                  "id": "r-div-224",
                   "tag": "div",
                   "classes": [
                     "cvm-process__heading"
@@ -2700,36 +2630,33 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "heading",
-                  "id": "div-mw4tj6et-1585",
                   "children": [
                     {
+                      "id": "r-p-225",
                       "tag": "p",
                       "classes": [
                         "cvm-process__eyebrow"
                       ],
-                      "text": "HOW IT WORKS",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1586"
+                      "text": "HOW IT WORKS"
                     },
                     {
+                      "id": "r-h2-226",
                       "tag": "h2",
                       "classes": [
                         "cvm-process__title"
                       ],
-                      "text": "A clear plan.<br>From first call to final detail.",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "title",
-                      "id": "h2-mw4tj6et-1587"
+                      "text": "A clear plan.<br>From first call to final detail."
                     }
                   ]
                 },
                 {
+                  "id": "r-div-227",
                   "tag": "div",
                   "classes": [
                     "cvm-process__grid"
@@ -2737,10 +2664,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "grid",
-                  "id": "div-mw4tj6et-1588",
                   "children": [
                     {
+                      "id": "r-article-228",
                       "tag": "article",
                       "classes": [
                         "cvm-process__step"
@@ -2748,48 +2674,44 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "step",
-                      "id": "article-mw4tj6et-1589",
                       "children": [
                         {
+                          "id": "r-span-229",
                           "tag": "span",
                           "classes": [
                             "cvm-process__number"
                           ],
-                          "text": "01",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1590"
+                          "text": "01"
                         },
                         {
+                          "id": "r-h3-22a",
                           "tag": "h3",
                           "classes": [
                             "cvm-process__step-title"
                           ],
-                          "text": "Tell us your ideas",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "step title",
-                          "id": "h3-mw4tj6et-1591"
+                          "text": "Tell us your ideas"
                         },
                         {
+                          "id": "r-p-22b",
                           "tag": "p",
                           "classes": [
                             "cvm-process__text"
                           ],
-                          "text": "Share what you want to change, your postcode and a few photos of the existing bathroom.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1592"
+                          "text": "Share what you want to change, your postcode and a few photos of the existing bathroom."
                         }
                       ]
                     },
                     {
+                      "id": "r-article-22c",
                       "tag": "article",
                       "classes": [
                         "cvm-process__step"
@@ -2797,48 +2719,44 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "step",
-                      "id": "article-mw4tj6et-1593",
                       "children": [
                         {
+                          "id": "r-span-22d",
                           "tag": "span",
                           "classes": [
                             "cvm-process__number"
                           ],
-                          "text": "02",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1594"
+                          "text": "02"
                         },
                         {
+                          "id": "r-h3-22e",
                           "tag": "h3",
                           "classes": [
                             "cvm-process__step-title"
                           ],
-                          "text": "Plan your space",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "step title",
-                          "id": "h3-mw4tj6et-1595"
+                          "text": "Plan your space"
                         },
                         {
+                          "id": "r-p-22f",
                           "tag": "p",
                           "classes": [
                             "cvm-process__text"
                           ],
-                          "text": "Discuss the layout, product choices and installation requirements for your home.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1596"
+                          "text": "Discuss the layout, product choices and installation requirements for your home."
                         }
                       ]
                     },
                     {
+                      "id": "r-article-22g",
                       "tag": "article",
                       "classes": [
                         "cvm-process__step"
@@ -2846,48 +2764,44 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "step",
-                      "id": "article-mw4tj6et-1597",
                       "children": [
                         {
+                          "id": "r-span-22h",
                           "tag": "span",
                           "classes": [
                             "cvm-process__number"
                           ],
-                          "text": "03",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1598"
+                          "text": "03"
                         },
                         {
+                          "id": "r-h3-22i",
                           "tag": "h3",
                           "classes": [
                             "cvm-process__step-title"
                           ],
-                          "text": "Agree the work",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "step title",
-                          "id": "h3-mw4tj6et-1599"
+                          "text": "Agree the work"
                         },
                         {
+                          "id": "r-p-22j",
                           "tag": "p",
                           "classes": [
                             "cvm-process__text"
                           ],
-                          "text": "Review the proposed scope, quote and schedule before the project gets under way.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1600"
+                          "text": "Review the proposed scope, quote and schedule before the project gets under way."
                         }
                       ]
                     },
                     {
+                      "id": "r-article-22k",
                       "tag": "article",
                       "classes": [
                         "cvm-process__step"
@@ -2895,44 +2809,39 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "step",
-                      "id": "article-mw4tj6et-1601",
                       "children": [
                         {
+                          "id": "r-span-22l",
                           "tag": "span",
                           "classes": [
                             "cvm-process__number"
                           ],
-                          "text": "04",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "number",
-                          "id": "span-mw4tj6et-1602"
+                          "text": "04"
                         },
                         {
+                          "id": "r-h3-22m",
                           "tag": "h3",
                           "classes": [
                             "cvm-process__step-title"
                           ],
-                          "text": "Bring it to life",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "step title",
-                          "id": "h3-mw4tj6et-1603"
+                          "text": "Bring it to life"
                         },
                         {
+                          "id": "r-p-22n",
                           "tag": "p",
                           "classes": [
                             "cvm-process__text"
                           ],
-                          "text": "Your bathroom takes shape, with communication through the work and a final review of the finish.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "text",
-                          "id": "p-mw4tj6et-1604"
+                          "text": "Your bathroom takes shape, with communication through the work and a final review of the finish."
                         }
                       ]
                     }
@@ -2943,6 +2852,7 @@
           ]
         },
         {
+          "id": "r-section-22o",
           "tag": "section",
           "classes": [
             "cvm-reviews"
@@ -2951,10 +2861,9 @@
             "builder-data-element": "section",
             "id": "reviews"
           },
-          "name": "cvm reviews",
-          "id": "section-mw4tj6et-1605",
           "children": [
             {
+              "id": "r-div-22p",
               "tag": "div",
               "classes": [
                 "cvm-reviews__container"
@@ -2962,10 +2871,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1606",
               "children": [
                 {
+                  "id": "r-div-22q",
                   "tag": "div",
                   "classes": [
                     "cvm-reviews__heading"
@@ -2973,10 +2881,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "heading",
-                  "id": "div-mw4tj6et-1607",
                   "children": [
                     {
+                      "id": "r-div-22r",
                       "tag": "div",
                       "classes": [
                         "cvm-reviews__intro"
@@ -2984,36 +2891,33 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "intro",
-                      "id": "div-mw4tj6et-1608",
                       "children": [
                         {
+                          "id": "r-p-22s",
                           "tag": "p",
                           "classes": [
                             "cvm-reviews__eyebrow"
                           ],
-                          "text": "CUSTOMER FEEDBACK",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "eyebrow",
-                          "id": "p-mw4tj6et-1609"
+                          "text": "CUSTOMER FEEDBACK"
                         },
                         {
+                          "id": "r-h2-22t",
                           "tag": "h2",
                           "classes": [
                             "cvm-reviews__title"
                           ],
-                          "text": "Good work.<br>In their words.",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
-                          "name": "title",
-                          "id": "h2-mw4tj6et-1610"
+                          "text": "Good work.<br>In their words."
                         }
                       ]
                     },
                     {
+                      "id": "r-div-22u",
                       "tag": "div",
                       "classes": [
                         "cvm-reviews__rating"
@@ -3021,22 +2925,20 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "rating",
-                      "id": "div-mw4tj6et-1611",
                       "children": [
                         {
+                          "id": "r-span-22v",
                           "tag": "span",
                           "classes": [
                             "cvm-reviews__score"
                           ],
-                          "text": "5.00 / 5",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "score",
-                          "id": "span-mw4tj6et-1612"
+                          "text": "5.00 / 5"
                         },
                         {
+                          "id": "r-span-22w",
                           "tag": "span",
                           "classes": [
                             "cvm-reviews__stars"
@@ -3045,27 +2947,25 @@
                             "builder-data-element": "span",
                             "aria-label": "5 out of 5 stars"
                           },
-                          "text": "★★★★★",
-                          "name": "stars",
-                          "id": "span-mw4tj6et-1613"
+                          "text": "★★★★★"
                         },
                         {
+                          "id": "r-p-22x",
                           "tag": "p",
                           "classes": [
                             "cvm-reviews__count"
                           ],
-                          "text": "50 reviews published on C.V.M’s testimonials page",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "count",
-                          "id": "p-mw4tj6et-1614"
+                          "text": "50 reviews published on C.V.M’s testimonials page"
                         }
                       ]
                     }
                   ]
                 },
                 {
+                  "id": "r-div-22y",
                   "tag": "div",
                   "classes": [
                     "cvm-reviews__grid"
@@ -3073,54 +2973,52 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "grid",
-                  "id": "div-mw4tj6et-1615",
                   "children": [
                     {
+                      "id": "r-inst-22z",
                       "tag": "div",
                       "component": "cmp-customerreview",
                       "props": {
                         "quote": "Quality workmanship and a great guy to deal with.",
                         "author": "Steve H",
                         "context": "New en suite · Experience August 2023"
-                      },
-                      "id": "div-mw4tj6et-1616"
+                      }
                     },
                     {
+                      "id": "r-inst-230",
                       "tag": "div",
                       "component": "cmp-customerreview",
                       "props": {
                         "quote": "Great contact at all times.",
                         "author": "Debbie M",
                         "context": "Shower installation · Experience September 2022"
-                      },
-                      "id": "div-mw4tj6et-1617"
+                      }
                     },
                     {
+                      "id": "r-inst-231",
                       "tag": "div",
                       "component": "cmp-customerreview",
                       "props": {
                         "quote": "Quick efficient and to a good standard.",
                         "author": "Verified Reviewer",
                         "context": "Toilet and taps fitted · Experience December 2020"
-                      },
-                      "id": "div-mw4tj6et-1618"
+                      }
                     }
                   ]
                 },
                 {
+                  "id": "r-p-232",
                   "tag": "p",
                   "classes": [
                     "cvm-reviews__source-note"
                   ],
-                  "text": "Short excerpts from published reviews for the wider C.V.M Construction business. ",
                   "attrs": {
                     "builder-data-element": "text"
                   },
-                  "name": "source note",
-                  "id": "p-mw4tj6et-1619",
+                  "text": "Short excerpts from published reviews for the wider C.V.M Construction business. ",
                   "children": [
                     {
+                      "id": "r-a-233",
                       "tag": "a",
                       "classes": [
                         "cvm-reviews__source-link"
@@ -3131,9 +3029,7 @@
                         "target": "_blank",
                         "rel": "noopener noreferrer"
                       },
-                      "text": "Read the full reviews ↗",
-                      "name": "source link",
-                      "id": "a-mw4tj6et-1620"
+                      "text": "Read the full reviews ↗"
                     }
                   ]
                 }
@@ -3142,6 +3038,7 @@
           ]
         },
         {
+          "id": "r-section-234",
           "tag": "section",
           "classes": [
             "cvm-faq"
@@ -3150,10 +3047,9 @@
             "builder-data-element": "section",
             "id": "faqs"
           },
-          "name": "cvm faq",
-          "id": "section-mw4tj6et-1621",
           "children": [
             {
+              "id": "r-div-235",
               "tag": "div",
               "classes": [
                 "cvm-faq__container"
@@ -3161,10 +3057,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1622",
               "children": [
                 {
+                  "id": "r-div-236",
                   "tag": "div",
                   "classes": [
                     "cvm-faq__intro"
@@ -3172,46 +3067,42 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "intro",
-                  "id": "div-mw4tj6et-1623",
                   "children": [
                     {
+                      "id": "r-p-237",
                       "tag": "p",
                       "classes": [
                         "cvm-faq__eyebrow"
                       ],
-                      "text": "BEFORE YOU BEGIN",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1624"
+                      "text": "BEFORE YOU BEGIN"
                     },
                     {
+                      "id": "r-h2-238",
                       "tag": "h2",
                       "classes": [
                         "cvm-faq__title"
                       ],
-                      "text": "Your bathroom<br>questions, answered.",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "title",
-                      "id": "h2-mw4tj6et-1625"
+                      "text": "Your bathroom<br>questions, answered."
                     },
                     {
+                      "id": "r-p-239",
                       "tag": "p",
                       "classes": [
                         "cvm-faq__text"
                       ],
-                      "text": "Planning a bathroom refit in Solihull? Here are a few useful starting points. For advice about your own room, speak to Chris.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "text",
-                      "id": "p-mw4tj6et-1626"
+                      "text": "Planning a bathroom refit in Solihull? Here are a few useful starting points. For advice about your own room, speak to Chris."
                     },
                     {
+                      "id": "r-a-23a",
                       "tag": "a",
                       "classes": [
                         "cvm-faq__call"
@@ -3220,13 +3111,12 @@
                         "builder-data-element": "link",
                         "href": "tel:07748601792"
                       },
-                      "text": "Call 07748 601792 ↗",
-                      "name": "call",
-                      "id": "a-mw4tj6et-1627"
+                      "text": "Call 07748 601792 ↗"
                     }
                   ]
                 },
                 {
+                  "id": "r-div-23b",
                   "tag": "div",
                   "classes": [
                     "cvm-faq__list"
@@ -3234,10 +3124,9 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "list",
-                  "id": "div-mw4tj6et-1628",
                   "children": [
                     {
+                      "id": "r-details-23c",
                       "tag": "details",
                       "classes": [
                         "cvm-faq__item"
@@ -3246,217 +3135,198 @@
                         "builder-data-element": "div",
                         "open": ""
                       },
-                      "name": "item",
-                      "id": "details-mw4tj6et-1629",
                       "children": [
                         {
+                          "id": "r-summary-23d",
                           "tag": "summary",
                           "classes": [
                             "cvm-faq__question"
                           ],
-                          "text": "Do you fit bathrooms in Solihull?",
-                          "name": "question",
-                          "id": "summary-mw4tj6et-1630",
                           "attrs": {
                             "builder-data-element": "text"
-                          }
+                          },
+                          "text": "Do you fit bathrooms in Solihull?"
                         },
                         {
+                          "id": "r-p-23e",
                           "tag": "p",
                           "classes": [
                             "cvm-faq__answer"
                           ],
-                          "text": "Yes. C.V.M Plumbing & Bathrooms is based in Solihull and provides bathroom fitting and refurbishment services locally. Share your postcode when you enquire so we can confirm availability for your property.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "answer",
-                          "id": "p-mw4tj6et-1631"
+                          "text": "Yes. C.V.M Plumbing & Bathrooms is based in Solihull and provides bathroom fitting and refurbishment services locally. Share your postcode when you enquire so we can confirm availability for your property."
                         }
                       ]
                     },
                     {
+                      "id": "r-details-23f",
                       "tag": "details",
                       "classes": [
                         "cvm-faq__item"
                       ],
-                      "name": "item",
-                      "id": "details-mw4tj6et-1632",
                       "attrs": {
                         "builder-data-element": "div"
                       },
                       "children": [
                         {
+                          "id": "r-summary-23g",
                           "tag": "summary",
                           "classes": [
                             "cvm-faq__question"
                           ],
-                          "text": "Can you help with bathroom design as well as fitting?",
-                          "name": "question",
-                          "id": "summary-mw4tj6et-1633",
                           "attrs": {
                             "builder-data-element": "text"
-                          }
+                          },
+                          "text": "Can you help with bathroom design as well as fitting?"
                         },
                         {
+                          "id": "r-p-23h",
                           "tag": "p",
                           "classes": [
                             "cvm-faq__answer"
                           ],
-                          "text": "Yes. We can discuss the layout, fixtures and finishes alongside the practical installation work. Whether you have a clear design in mind or need help comparing options, the starting point is understanding your space and how you use it.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "answer",
-                          "id": "p-mw4tj6et-1634"
+                          "text": "Yes. We can discuss the layout, fixtures and finishes alongside the practical installation work. Whether you have a clear design in mind or need help comparing options, the starting point is understanding your space and how you use it."
                         }
                       ]
                     },
                     {
+                      "id": "r-details-23i",
                       "tag": "details",
                       "classes": [
                         "cvm-faq__item"
                       ],
-                      "name": "item",
-                      "id": "details-mw4tj6et-1635",
                       "attrs": {
                         "builder-data-element": "div"
                       },
                       "children": [
                         {
+                          "id": "r-summary-23j",
                           "tag": "summary",
                           "classes": [
                             "cvm-faq__question"
                           ],
-                          "text": "How much does a bathroom refurbishment cost?",
-                          "name": "question",
-                          "id": "summary-mw4tj6et-1636",
                           "attrs": {
                             "builder-data-element": "text"
-                          }
+                          },
+                          "text": "How much does a bathroom refurbishment cost?"
                         },
                         {
+                          "id": "r-p-23k",
                           "tag": "p",
                           "classes": [
                             "cvm-faq__answer"
                           ],
-                          "text": "The cost depends on the room size, suite and finishes, the condition of existing plumbing and any changes to the layout. Contact Chris to discuss the work and arrange an assessment so the quote reflects your bathroom.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "answer",
-                          "id": "p-mw4tj6et-1637"
+                          "text": "The cost depends on the room size, suite and finishes, the condition of existing plumbing and any changes to the layout. Contact Chris to discuss the work and arrange an assessment so the quote reflects your bathroom."
                         }
                       ]
                     },
                     {
+                      "id": "r-details-23l",
                       "tag": "details",
                       "classes": [
                         "cvm-faq__item"
                       ],
-                      "name": "item",
-                      "id": "details-mw4tj6et-1638",
                       "attrs": {
                         "builder-data-element": "div"
                       },
                       "children": [
                         {
+                          "id": "r-summary-23m",
                           "tag": "summary",
                           "classes": [
                             "cvm-faq__question"
                           ],
-                          "text": "How long will my bathroom installation take?",
-                          "name": "question",
-                          "id": "summary-mw4tj6et-1639",
                           "attrs": {
                             "builder-data-element": "text"
-                          }
+                          },
+                          "text": "How long will my bathroom installation take?"
                         },
                         {
+                          "id": "r-p-23n",
                           "tag": "p",
                           "classes": [
                             "cvm-faq__answer"
                           ],
-                          "text": "Timescales depend on the amount of work, product availability and any issues uncovered when the old bathroom is removed. Your proposed schedule should be discussed before work begins, with updates if the scope changes.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "answer",
-                          "id": "p-mw4tj6et-1640"
+                          "text": "Timescales depend on the amount of work, product availability and any issues uncovered when the old bathroom is removed. Your proposed schedule should be discussed before work begins, with updates if the scope changes."
                         }
                       ]
                     },
                     {
+                      "id": "r-details-23o",
                       "tag": "details",
                       "classes": [
                         "cvm-faq__item"
                       ],
-                      "name": "item",
-                      "id": "details-mw4tj6et-1641",
                       "attrs": {
                         "builder-data-element": "div"
                       },
                       "children": [
                         {
+                          "id": "r-summary-23p",
                           "tag": "summary",
                           "classes": [
                             "cvm-faq__question"
                           ],
-                          "text": "Can you work on a small bathroom or en suite?",
-                          "name": "question",
-                          "id": "summary-mw4tj6et-1642",
                           "attrs": {
                             "builder-data-element": "text"
-                          }
+                          },
+                          "text": "Can you work on a small bathroom or en suite?"
                         },
                         {
+                          "id": "r-p-23q",
                           "tag": "p",
                           "classes": [
                             "cvm-faq__answer"
                           ],
-                          "text": "Yes. Careful planning can make a compact bathroom or en suite more practical. We can discuss storage, shower positions and fixture sizes to help you make better use of the available space.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "answer",
-                          "id": "p-mw4tj6et-1643"
+                          "text": "Yes. Careful planning can make a compact bathroom or en suite more practical. We can discuss storage, shower positions and fixture sizes to help you make better use of the available space."
                         }
                       ]
                     },
                     {
+                      "id": "r-details-23r",
                       "tag": "details",
                       "classes": [
                         "cvm-faq__item"
                       ],
-                      "name": "item",
-                      "id": "details-mw4tj6et-1644",
                       "attrs": {
                         "builder-data-element": "div"
                       },
                       "children": [
                         {
+                          "id": "r-summary-23s",
                           "tag": "summary",
                           "classes": [
                             "cvm-faq__question"
                           ],
-                          "text": "What should I have ready before requesting a quote?",
-                          "name": "question",
-                          "id": "summary-mw4tj6et-1645",
                           "attrs": {
                             "builder-data-element": "text"
-                          }
+                          },
+                          "text": "What should I have ready before requesting a quote?"
                         },
                         {
+                          "id": "r-p-23t",
                           "tag": "p",
                           "classes": [
                             "cvm-faq__answer"
                           ],
-                          "text": "A few photos, your approximate room dimensions, your postcode and an outline of what you want to change are a useful start. If you have selected products or set a budget, include those details too.",
                           "attrs": {
                             "builder-data-element": "text"
                           },
-                          "name": "answer",
-                          "id": "p-mw4tj6et-1646"
+                          "text": "A few photos, your approximate room dimensions, your postcode and an outline of what you want to change are a useful start. If you have selected products or set a budget, include those details too."
                         }
                       ]
                     }
@@ -3467,6 +3337,7 @@
           ]
         },
         {
+          "id": "r-section-23u",
           "tag": "section",
           "classes": [
             "cvm-contact"
@@ -3475,10 +3346,9 @@
             "builder-data-element": "section",
             "id": "contact"
           },
-          "name": "cvm contact",
-          "id": "section-mw4tj6et-1647",
           "children": [
             {
+              "id": "r-div-23v",
               "tag": "div",
               "classes": [
                 "cvm-contact__container"
@@ -3486,10 +3356,9 @@
               "attrs": {
                 "builder-data-element": "div"
               },
-              "name": "container",
-              "id": "div-mw4tj6et-1648",
               "children": [
                 {
+                  "id": "r-div-23w",
                   "tag": "div",
                   "classes": [
                     "cvm-contact__content"
@@ -3497,46 +3366,42 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "content",
-                  "id": "div-mw4tj6et-1649",
                   "children": [
                     {
+                      "id": "r-p-23x",
                       "tag": "p",
                       "classes": [
                         "cvm-contact__eyebrow"
                       ],
-                      "text": "LET’S TALK ABOUT YOUR BATHROOM",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1650"
+                      "text": "LET’S TALK ABOUT YOUR BATHROOM"
                     },
                     {
+                      "id": "r-h2-23y",
                       "tag": "h2",
                       "classes": [
                         "cvm-contact__title"
                       ],
-                      "text": "Ready for a change?<br>Start with a conversation.",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "title",
-                      "id": "h2-mw4tj6et-1651"
+                      "text": "Ready for a change?<br>Start with a conversation."
                     },
                     {
+                      "id": "r-p-23z",
                       "tag": "p",
                       "classes": [
                         "cvm-contact__text"
                       ],
-                      "text": "Tell Chris about your bathroom fitting or design project in Solihull. A few photos and an idea of what you’d like to achieve are a great place to start.",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "text",
-                      "id": "p-mw4tj6et-1652"
+                      "text": "Tell Chris about your bathroom fitting or design project in Solihull. A few photos and an idea of what you’d like to achieve are a great place to start."
                     },
                     {
+                      "id": "r-div-240",
                       "tag": "div",
                       "classes": [
                         "cvm-contact__actions"
@@ -3544,10 +3409,9 @@
                       "attrs": {
                         "builder-data-element": "div"
                       },
-                      "name": "actions",
-                      "id": "div-mw4tj6et-1653",
                       "children": [
                         {
+                          "id": "r-a-241",
                           "tag": "a",
                           "classes": [
                             "cvm-contact__phone",
@@ -3558,11 +3422,10 @@
                             "builder-data-element": "link",
                             "href": "tel:07748601792"
                           },
-                          "text": "Call 07748 601792 ↗",
-                          "name": "phone",
-                          "id": "a-mw4tj6et-1654"
+                          "text": "Call 07748 601792 ↗"
                         },
                         {
+                          "id": "r-a-242",
                           "tag": "a",
                           "classes": [
                             "cvm-contact__email",
@@ -3574,15 +3437,14 @@
                             "builder-data-element": "link",
                             "href": "mailto:cvminstallations@gmail.com?subject=Bathroom%20enquiry%20-%20Solihull"
                           },
-                          "text": "Email your ideas ↗",
-                          "name": "email",
-                          "id": "a-mw4tj6et-1655"
+                          "text": "Email your ideas ↗"
                         }
                       ]
                     }
                   ]
                 },
                 {
+                  "id": "r-div-243",
                   "tag": "div",
                   "classes": [
                     "cvm-contact__details"
@@ -3590,34 +3452,31 @@
                   "attrs": {
                     "builder-data-element": "div"
                   },
-                  "name": "details",
-                  "id": "div-mw4tj6et-1656",
                   "children": [
                     {
+                      "id": "r-h3-244",
                       "tag": "h3",
                       "classes": [
                         "cvm-contact__details-title"
                       ],
-                      "text": "C.V.M Plumbing & Bathrooms",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "details title",
-                      "id": "h3-mw4tj6et-1657"
+                      "text": "C.V.M Plumbing & Bathrooms"
                     },
                     {
+                      "id": "r-p-245",
                       "tag": "p",
                       "classes": [
                         "cvm-contact__address"
                       ],
-                      "text": "2 Lingham Close<br>Solihull, West Midlands<br>B92 9NW",
                       "attrs": {
                         "builder-data-element": "text"
                       },
-                      "name": "address",
-                      "id": "p-mw4tj6et-1658"
+                      "text": "2 Lingham Close<br>Solihull, West Midlands<br>B92 9NW"
                     },
                     {
+                      "id": "r-a-246",
                       "tag": "a",
                       "classes": [
                         "cvm-contact__email-text"
@@ -3626,11 +3485,10 @@
                         "builder-data-element": "link",
                         "href": "mailto:cvminstallations@gmail.com"
                       },
-                      "text": "cvminstallations@gmail.com",
-                      "name": "email text",
-                      "id": "a-mw4tj6et-1659"
+                      "text": "cvminstallations@gmail.com"
                     },
                     {
+                      "id": "r-a-247",
                       "tag": "a",
                       "classes": [
                         "cvm-contact__map"
@@ -3641,9 +3499,7 @@
                         "target": "_blank",
                         "rel": "noopener noreferrer"
                       },
-                      "text": "View location ↗",
-                      "name": "map",
-                      "id": "a-mw4tj6et-1660"
+                      "text": "View location ↗"
                     }
                   ]
                 }
@@ -4067,7 +3923,7 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "0f7537d1f65cc88f*d2f262f7c6629c4c",
+    "src/pages/index.astro": "458f35cb6ccbf2e7*23e14230cea5a117",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
     "src/styles/generated/pages/index.css": "52d9a0605325dada",
