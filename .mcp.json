@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "sitereal": {
+      "command": "C:\\Users\\Richard E\\AppData\\Local\\Programs\\sitereal-desktop\\sitereal.exe",
+      "args": [
+        "C:\\Users\\Richard E\\AppData\\Local\\Programs\\sitereal-desktop\\resources\\app.asar\\dist\\mcp.mjs"
+      ],
+      "env": {
+        "ELECTRON_RUN_AS_NODE": "1"
+      }
+    }
+  }
+}

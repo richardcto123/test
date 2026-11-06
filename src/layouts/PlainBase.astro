@@ -1,0 +1,73 @@
+---
+/* Minimal, framework-free wrapper for builder-emitted pages.
+   Document shell + a tiny reset + SEO/social head tags; all visual
+   styling comes from the page's own <style> (the CSS window). */
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  noindex?: boolean;
+  siteName?: string;
+  canonical?: string;
+  lang?: string;
+  /** 'rtl' for a language written right to left; absent writes no attribute */
+  dir?: 'ltr' | 'rtl';
+  favicon?: string;
+}
+const {
+  title = 'Strata',
+  description,
+  image,
+  noindex = false,
+  siteName,
+  canonical,
+  lang = 'en',
+  dir,
+  favicon,
+} = Astro.props;
+---
+<!doctype html>
+<html lang={lang} dir={dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Strata" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {favicon && <link rel="icon" href={favicon} />}
+    {canonical && <link rel="canonical" href={canonical} />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    {siteName && <meta property="og:site_name" content={siteName} />}
+    {canonical && <meta property="og:url" content={canonical} />}
+    {image && <meta property="og:image" content={image} />}
+
+    <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    {image && <meta name="twitter:image" content={image} />}
+
+    <style is:global>
+      *, *::before, *::after { box-sizing: border-box; }
+      body { margin: 0; }
+      img { max-width: 100%; display: block; }
+      /* color-scheme: light plus a zero-specificity fallback color/background
+         (:where(), same convention the generated stylesheet uses) keep a page
+         legible when the design system is off and nothing else on the page
+         sets either — without it, the UA's dark-mode default text color can
+         render white with no contrasting background under it. Any real rule,
+         generated or hand-written, still wins over this. */
+      :root { color-scheme: light; }
+      :where(body) { color: #111827; background: #fff; }
+    </style>
+
+    <!-- head snippets (scripts/styles/markup scoped to this page) -->
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

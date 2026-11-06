@@ -1,0 +1,48 @@
+---
+interface Props {
+  quote?: string;
+  author?: string;
+  context?: string;
+  source?: string;
+}
+const { quote = "", author = "", context = "", source = "https://bathroomfittersinsolihull.co.uk/testimonials/" } = Astro.props;
+---
+<article class="customer-review" builder-data-element="div">
+  <span class="customer-review__stars" builder-data-element="span" aria-label="5 out of 5 stars">★★★★★</span>
+  <blockquote class="customer-review__quote" builder-data-element="div">“{quote}”</blockquote>
+  <div class="customer-review__byline" builder-data-element="div">
+    <p class="customer-review__author" builder-data-element="text">{author}</p>
+    <p class="customer-review__context" builder-data-element="text">{context}</p>
+  </div>
+  <a class="customer-review__source" builder-data-element="link" href={source} target="_blank" rel="noopener noreferrer">Read the published review ↗</a>
+</article>
+<style>
+  /* CustomerReview */
+  .customer-review {
+    display: flex; flex-direction: column; gap: var(--space-m); padding: var(--space-l); background: var(--white); border: var(--border); border-radius: var(--radius-m); block-size: 100%;
+  }
+
+  .customer-review__stars {
+    color: var(--primary);
+  }
+
+  .customer-review__quote {
+    font-size: var(--text-l); margin: 0; color: var(--base);
+  }
+
+  .customer-review__byline {
+    display: flex; flex-direction: column; gap: var(--space-xxs); margin-block-start: auto;
+  }
+
+  .customer-review__author {
+    font-size: var(--text-m);
+  }
+
+  .customer-review__context {
+    font-size: var(--text-xs);
+  }
+
+  .customer-review__source {
+    font-size: var(--text-xs); color: var(--primary); text-underline-offset: .3em;
+  }
+</style>

@@ -1,0 +1,61 @@
+---
+interface Props {
+  title?: string;
+  category?: string;
+  description?: string;
+  image?: string;
+  alt?: string;
+  number?: string;
+}
+const { title = "Skin rituals", category = "SKIN", description = "Care designed around you.", image = "", alt = "", number = "01" } = Astro.props;
+---
+<article class="treatment-card" builder-data-element="div">
+  <div class="treatment-card__visual" builder-data-element="div">
+    <img class="treatment-card__image" builder-data-element="image" src={image} alt={alt} loading="lazy" width="800" height="950" />
+    <span class="treatment-card__number" builder-data-element="div">{number}</span>
+  </div>
+  <div class="treatment-card__body" builder-data-element="div">
+    <p class="treatment-card__category" builder-data-element="text">{category}</p>
+    <h3 class="treatment-card__title" builder-data-element="heading">{title}</h3>
+    <p class="treatment-card__description" builder-data-element="text">{description}</p>
+    <a class="treatment-card__link" builder-data-element="link" href="#consultation">Explore {title} ↗</a>
+  </div>
+</article>
+<style>
+  /* TreatmentCard */
+  .treatment-card {
+    display: flex; flex-direction: column; block-size: 100%; background: var(--neutral-100);
+  }
+
+  .treatment-card__visual {
+    position: relative; overflow: hidden; aspect-ratio: 4 / 4.5;
+  }
+
+  .treatment-card__image {
+    inline-size: 100%; block-size: 100%; object-fit: cover; transition: scale var(--motion-duration) var(--motion-ease); .treatment-card:hover & { scale: 1.04; } @media(prefers-reduced-motion: reduce){ transition: none; }
+  }
+
+  .treatment-card__number {
+    position: absolute; inset-block-start: var(--space-m); inset-inline-start: var(--space-m); padding: var(--space-xs); background: var(--neutral-100); color: var(--primary); font-size: var(--text-s);
+  }
+
+  .treatment-card__body {
+    display: flex; flex-direction: column; align-items: start; gap: var(--space-s); padding: var(--space-l) var(--space-m); flex: 1;
+  }
+
+  .treatment-card__category {
+    font-size: var(--text-xs); color: var(--primary);
+  }
+
+  .treatment-card__title {
+    font-size: var(--h3);
+  }
+
+  .treatment-card__description {
+    font-size: var(--text-s);
+  }
+
+  .treatment-card__link {
+    color: var(--primary); font-size: var(--text-s); padding-block-start: var(--space-m); text-underline-offset: .3em; margin-block-start: auto;
+  }
+</style>

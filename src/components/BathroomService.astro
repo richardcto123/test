@@ -1,0 +1,56 @@
+---
+interface Props {
+  title?: string;
+  number?: string;
+  description?: string;
+  image?: string;
+  alt?: string;
+  link?: string;
+  features?: string;
+}
+const { title = "Bathroom fitting", number = "01", description = "A complete bathroom installation.", image = "", alt = "", link = "#bathroom-fitting", features = "Installation · Plumbing · Finishing" } = Astro.props;
+---
+<article class="bathroom-service" builder-data-element="div">
+  <img class="bathroom-service__image" builder-data-element="image" src={image} alt={alt} width="900" height="600" loading="lazy" />
+  <div class="bathroom-service__body" builder-data-element="div">
+    <span class="bathroom-service__number" builder-data-element="span">{number} / C.V.M SERVICES</span>
+    <h3 class="bathroom-service__title" builder-data-element="heading">{title}</h3>
+    <p class="bathroom-service__description" builder-data-element="text">{description}</p>
+    <p class="bathroom-service__features" builder-data-element="text">{features}</p>
+    <a class="bathroom-service__link" builder-data-element="link" href={link}>Explore {title} ↗</a>
+  </div>
+</article>
+<style>
+  /* BathroomService */
+  .bathroom-service {
+    display: flex; flex-direction: column; block-size: 100%; border: var(--border); border-radius: var(--radius-m); overflow: hidden; background: var(--white);
+  }
+
+  .bathroom-service__image {
+    inline-size: 100%; block-size: auto; aspect-ratio: 16 / 9; object-fit: cover;
+  }
+
+  .bathroom-service__body {
+    display: flex; flex-direction: column; align-items: start; flex: 1; gap: var(--space-s); padding: var(--space-l);
+  }
+
+  .bathroom-service__number {
+    font-size: var(--text-xs); color: var(--primary);
+  }
+
+  .bathroom-service__title {
+    font-size: var(--h3);
+  }
+
+  .bathroom-service__description {
+    font-size: var(--text-m);
+  }
+
+  .bathroom-service__features {
+    font-size: var(--text-s); color: var(--primary);
+  }
+
+  .bathroom-service__link {
+    color: var(--primary); padding-block-start: var(--space-m); margin-block-start: auto; text-underline-offset: .3em;
+  }
+</style>
