@@ -1669,7 +1669,7 @@
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "text": "This is a test of a test\n            <br>",
+                      "text": "This test \n            <br>",
                       "children": [
                         {
                           "id": "r-span-gj",
@@ -3781,7 +3781,7 @@
             },
             {
               "selector": ".cvm-hero__title",
-              "css": "font-size: var(--h1);"
+              "css": "font-size: var(--h1); color: var(--accent); background: var(--accent-200);"
             },
             {
               "selector": ".cvm-hero__highlight",
@@ -4065,11 +4065,11 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "222582da1a37f0a2*48c8b56a3f73e4f3",
+    "src/pages/index.astro": "bd0ecd9803b5ba6c*5680ded92d26898d",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
     "src/styles/generated/global.css": "ef5103f18e88864c",
-    "src/styles/generated/pages/index.css": "52d9a0605325dada",
+    "src/styles/generated/pages/index.css": "0f90e2896f27a01b",
     "src/styles/generated/templates/tpl-mw4sf65b-1.css": "ccc371e075362013"
   }
 }
