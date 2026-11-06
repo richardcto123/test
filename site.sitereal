@@ -1611,6 +1611,323 @@
       "title": "Bathroom Fitters & Design in Solihull",
       "root": [
         {
+          "id": "r-code-gd",
+          "tag": "astro-code",
+          "attrs": {
+            "builder-data-element": "code"
+          },
+          "children": [],
+          "html": "<<<<<<< HEAD\n=======\n    "
+        },
+        {
+          "id": "r-section-ge",
+          "tag": "section",
+          "classes": [
+            "cvm-hero"
+          ],
+          "attrs": {
+            "builder-data-element": "section"
+          },
+          "children": [
+            {
+              "id": "r-div-gf",
+              "tag": "div",
+              "classes": [
+                "cvm-hero__container"
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "children": [
+                {
+                  "id": "r-div-gg",
+                  "tag": "div",
+                  "classes": [
+                    "cvm-hero__content"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "div"
+                  },
+                  "children": [
+                    {
+                      "id": "r-p-gh",
+                      "tag": "p",
+                      "classes": [
+                        "cvm-hero__eyebrow"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "text": "C.V.M PLUMBING & BATHROOMS · SOLIHULL"
+                    },
+                    {
+                      "id": "r-h1-gi",
+                      "tag": "h1",
+                      "classes": [
+                        "cvm-hero__title"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "heading"
+                      },
+                      "text": "This is a test of a test\n            <br>",
+                      "children": [
+                        {
+                          "id": "r-span-gj",
+                          "tag": "span",
+                          "classes": [
+                            "cvm-hero__highlight"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "text": "Built around you."
+                        }
+                      ]
+                    },
+                    {
+                      "id": "r-p-gk",
+                      "tag": "p",
+                      "classes": [
+                        "cvm-hero__intro"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "text"
+                      },
+                      "text": "From the first design ideas to the final fitting, create a bathroom that works beautifully for your home. Local expertise, practical advice and care in every detail."
+                    },
+                    {
+                      "id": "r-div-gl",
+                      "tag": "div",
+                      "classes": [
+                        "cvm-hero__actions"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "children": [
+                        {
+                          "id": "r-a-gm",
+                          "tag": "a",
+                          "classes": [
+                            "cvm-hero__cta",
+                            "btn",
+                            "btn--primary"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "link",
+                            "href": "#contact"
+                          },
+                          "text": "Let’s plan your bathroom ↗"
+                        },
+                        {
+                          "id": "r-a-gn",
+                          "tag": "a",
+                          "classes": [
+                            "cvm-hero__call"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "link",
+                            "href": "tel:07748601792"
+                          },
+                          "text": "07748 601792"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "r-div-go",
+                      "tag": "div",
+                      "classes": [
+                        "cvm-hero__proof"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "children": [
+                        {
+                          "id": "r-span-gp",
+                          "tag": "span",
+                          "classes": [
+                            "cvm-hero__stars"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "span",
+                            "aria-label": "5 out of 5 stars"
+                          },
+                          "text": "★★★★★"
+                        },
+                        {
+                          "id": "r-p-gq",
+                          "tag": "p",
+                          "classes": [
+                            "cvm-hero__rating"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "text"
+                          },
+                          "text": "5.00 from 50 published reviews<br>",
+                          "children": [
+                            {
+                              "id": "r-a-gr",
+                              "tag": "a",
+                              "classes": [
+                                "cvm-hero__review-link"
+                              ],
+                              "attrs": {
+                                "builder-data-element": "link",
+                                "href": "#reviews"
+                              },
+                              "text": "See what C.V.M customers say"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "r-div-gs",
+                  "tag": "div",
+                  "classes": [
+                    "cvm-hero__visual"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "div"
+                  },
+                  "children": [
+                    {
+                      "id": "r-img-gt",
+                      "tag": "img",
+                      "classes": [
+                        "cvm-hero__image"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "image",
+                        "src": "/uploads/pexels-jorge-fakhouri-filho-861811-2701660.jpg",
+                        "alt": "Contemporary bathroom with a freestanding bath, shower and warm textured finishes",
+                        "width": "1200",
+                        "height": "1200",
+                        "loading": "eager",
+                        "fetchpriority": "high"
+                      }
+                    },
+                    {
+                      "id": "r-div-gu",
+                      "tag": "div",
+                      "classes": [
+                        "cvm-hero__image-caption"
+                      ],
+                      "attrs": {
+                        "builder-data-element": "div"
+                      },
+                      "children": [
+                        {
+                          "id": "r-span-gv",
+                          "tag": "span",
+                          "classes": [
+                            "cvm-hero__caption-title"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "text": "Your space. Reimagined."
+                        },
+                        {
+                          "id": "r-span-gw",
+                          "tag": "span",
+                          "classes": [
+                            "cvm-hero__caption-detail"
+                          ],
+                          "attrs": {
+                            "builder-data-element": "span"
+                          },
+                          "text": "DESIGN · FITTING · FINISHING"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r-section-gx",
+          "tag": "section",
+          "classes": [
+            "cvm-trust"
+          ],
+          "attrs": {
+            "builder-data-element": "section"
+          },
+          "children": [
+            {
+              "id": "r-div-gy",
+              "tag": "div",
+              "classes": [
+                "cvm-trust__container"
+              ],
+              "attrs": {
+                "builder-data-element": "div"
+              },
+              "children": [
+                {
+                  "id": "r-span-gz",
+                  "tag": "span",
+                  "classes": [
+                    "cvm-trust__item"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "span"
+                  },
+                  "text": "✓ Based in Solihull"
+                },
+                {
+                  "id": "r-span-h0",
+                  "tag": "span",
+                  "classes": [
+                    "cvm-trust__item"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "span"
+                  },
+                  "text": "✓ Family-run business"
+                },
+                {
+                  "id": "r-span-h1",
+                  "tag": "span",
+                  "classes": [
+                    "cvm-trust__item"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "span"
+                  },
+                  "text": "✓ Established since 2005"
+                },
+                {
+                  "id": "r-span-h2",
+                  "tag": "span",
+                  "classes": [
+                    "cvm-trust__item"
+                  ],
+                  "attrs": {
+                    "builder-data-element": "span"
+                  },
+                  "text": "✓ Design through to installation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "r-code-h3",
+          "tag": "astro-code",
+          "attrs": {
+            "builder-data-element": "code"
+          },
+          "children": [],
+          "html": "\n>>>>>>> parent of 221bbe2 (Update site (2026-11-06 11:47))\n    "
+        },
+        {
           "tag": "section",
           "classes": [
             "cvm-services"
@@ -3748,7 +4065,7 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "3d6ac5f5c2c7e720*88a3c67ca4c13b3f",
+    "src/pages/index.astro": "222582da1a37f0a2*48c8b56a3f73e4f3",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
     "src/styles/generated/global.css": "ef5103f18e88864c",
