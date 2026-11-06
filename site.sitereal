@@ -9,6 +9,13 @@
       "titleTemplate": "%s | %site",
       "sitemap": true,
       "robots": true
+    },
+    "hosting": {
+      "actions": {
+        "github": true,
+        "host": false
+      },
+      "how": "git"
     }
   },
   "addons": {},
@@ -373,7 +380,13 @@
     }
   },
   "variables": [],
-  "styles": [],
+  "styles": [
+    {
+      "id": "glob-sheet-mw4uz16s-1",
+      "name": "Global",
+      "rules": []
+    }
+  ],
   "fonts": [],
   "icons": [],
   "components": [
@@ -1627,7 +1640,7 @@
                       "classes": [
                         "cvm-hero__title"
                       ],
-                      "text": "Bathroom fitters<br>in Solihull.<br>",
+                      "text": "This is Mattys Branch<br>",
                       "children": [
                         {
                           "tag": "span",
@@ -3218,8 +3231,8 @@
                         "cvm-faq__item"
                       ],
                       "attrs": {
-                        "open": "",
-                        "builder-data-element": "div"
+                        "builder-data-element": "div",
+                        "open": ""
                       },
                       "children": [
                         {
@@ -4054,7 +4067,7 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "2d2877f6a40d86c4*e52d263640d590c0",
+    "src/pages/index.astro": "5fe4968aaf2c13a6*703606006635377a",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "f065543a6930b56a",
     "src/styles/generated/pages/index.css": "52d9a0605325dada",
