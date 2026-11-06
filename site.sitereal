@@ -25,7 +25,7 @@
       "modules": {},
       "colors": {
         "primary": {
-          "hex": "#78b90d",
+          "hex": "#0D53B9",
           "on": true
         },
         "secondary": {
@@ -37,11 +37,11 @@
           "on": false
         },
         "accent": {
-          "hex": "#da0e4e",
+          "hex": "#0D53B9",
           "on": true
         },
         "base": {
-          "hex": "#273a24",
+          "hex": "#152335",
           "on": true
         },
         "neutral": {
@@ -380,18 +380,7 @@
     }
   },
   "variables": [],
-  "styles": [
-    {
-      "id": "glob-sheet-mw4uz16s-1",
-      "name": "Global",
-      "rules": [
-        {
-          "selector": ".cvm-services__title",
-          "css": "font-family: var(--font-heading);\nfont-size: var(--h1);\nfont-weight: var(--heading-weight);\nline-height: var(--heading-line-height);\nletter-spacing: var(--heading-letter-spacing);"
-        }
-      ]
-    }
-  ],
+  "styles": [],
   "fonts": [],
   "icons": [],
   "components": [
@@ -1611,7 +1600,7 @@
       "title": "Bathroom Fitters & Design in Solihull",
       "root": [
         {
-          "id": "r-code-5pg",
+          "id": "r-code-631",
           "tag": "astro-code",
           "attrs": {
             "builder-data-element": "code"
@@ -1944,7 +1933,7 @@
           "id": "section-mw4tj6et-1519"
         },
         {
-          "id": "r-code-5q6",
+          "id": "r-code-63r",
           "tag": "astro-code",
           "attrs": {
             "builder-data-element": "code"
@@ -4090,10 +4079,9 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "7b36bdfa94af0bea*0142942dfc4f0b84",
+    "src/pages/index.astro": "f9da3cb78b5a533e*30baa9b94a3656dd",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
-    "src/styles/generated/framework.css": "68570699c8b1c638",
-    "src/styles/generated/global.css": "ef5103f18e88864c",
+    "src/styles/generated/framework.css": "f065543a6930b56a",
     "src/styles/generated/pages/index.css": "52d9a0605325dada",
     "src/styles/generated/templates/tpl-mw4sf65b-1.css": "ccc371e075362013"
   }
