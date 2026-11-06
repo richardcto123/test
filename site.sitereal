@@ -1616,8 +1616,8 @@
           "attrs": {
             "builder-data-element": "code"
           },
-          "children": [],
-          "html": "<<<<<<< HEAD\n=======\n    "
+          "html": "<<<<<<< HEAD\n=======\n    ",
+          "children": []
         },
         {
           "id": "r-section-ge",
@@ -1924,8 +1924,8 @@
           "attrs": {
             "builder-data-element": "code"
           },
-          "children": [],
-          "html": "\n>>>>>>> parent of 221bbe2 (Update site (2026-11-06 11:47))\n    "
+          "html": "\n>>>>>>> parent of 221bbe2 (Update site (2026-11-06 11:47))\n    ",
+          "children": []
         },
         {
           "tag": "section",
