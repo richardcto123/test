@@ -3748,7 +3748,7 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "e4cbba3af3930dbc*e8bdea9a95d2bf37",
+    "src/pages/index.astro": "e4cbba3af3930dbc*97c908c4d54708fc",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
     "src/styles/generated/global.css": "ef5103f18e88864c",
