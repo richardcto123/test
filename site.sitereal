@@ -384,7 +384,12 @@
     {
       "id": "glob-sheet-mw4uz16s-1",
       "name": "Global",
-      "rules": []
+      "rules": [
+        {
+          "selector": ".cvm-services__title",
+          "css": "font-family: var(--font-heading);\nfont-size: var(--h1);\nfont-weight: var(--heading-weight);\nline-height: var(--heading-line-height);\nletter-spacing: var(--heading-letter-spacing);"
+        }
+      ]
     }
   ],
   "fonts": [],
@@ -1608,254 +1613,6 @@
         {
           "tag": "section",
           "classes": [
-            "cvm-hero"
-          ],
-          "attrs": {
-            "builder-data-element": "section"
-          },
-          "name": "cvm hero",
-          "id": "section-mw4tj6et-1500",
-          "children": [
-            {
-              "tag": "div",
-              "classes": [
-                "cvm-hero__container"
-              ],
-              "attrs": {
-                "builder-data-element": "div"
-              },
-              "name": "container",
-              "id": "div-mw4tj6et-1501",
-              "children": [
-                {
-                  "tag": "div",
-                  "classes": [
-                    "cvm-hero__content"
-                  ],
-                  "attrs": {
-                    "builder-data-element": "div"
-                  },
-                  "name": "content",
-                  "id": "div-mw4tj6et-1502",
-                  "children": [
-                    {
-                      "tag": "p",
-                      "classes": [
-                        "cvm-hero__eyebrow"
-                      ],
-                      "text": "C.V.M PLUMBING & BATHROOMS · SOLIHULL",
-                      "attrs": {
-                        "builder-data-element": "text"
-                      },
-                      "name": "eyebrow",
-                      "id": "p-mw4tj6et-1503"
-                    },
-                    {
-                      "id": "r-h1-3m4",
-                      "tag": "h1",
-                      "classes": [
-                        "cvm-hero__title"
-                      ],
-                      "attrs": {
-                        "builder-data-element": "heading"
-                      },
-                      "text": "This is a test of a test i love burger nips lalalal<br>",
-                      "children": [
-                        {
-                          "id": "r-span-3m5",
-                          "tag": "span",
-                          "classes": [
-                            "cvm-hero__highlight"
-                          ],
-                          "attrs": {
-                            "builder-data-element": "span"
-                          },
-                          "text": "Built around you."
-                        }
-                      ]
-                    },
-                    {
-                      "tag": "p",
-                      "classes": [
-                        "cvm-hero__intro"
-                      ],
-                      "text": "From the first design ideas to the final fitting, create a bathroom that works beautifully for your home. Local expertise, practical advice and care in every detail.",
-                      "attrs": {
-                        "builder-data-element": "text"
-                      },
-                      "name": "intro",
-                      "id": "p-mw4tj6et-1506"
-                    },
-                    {
-                      "tag": "div",
-                      "classes": [
-                        "cvm-hero__actions"
-                      ],
-                      "attrs": {
-                        "builder-data-element": "div"
-                      },
-                      "name": "actions",
-                      "id": "div-mw4tj6et-1507",
-                      "children": [
-                        {
-                          "tag": "a",
-                          "classes": [
-                            "cvm-hero__cta",
-                            "btn",
-                            "btn--primary"
-                          ],
-                          "attrs": {
-                            "builder-data-element": "link",
-                            "href": "#contact"
-                          },
-                          "text": "Let’s plan your bathroom ↗",
-                          "name": "cta",
-                          "id": "a-mw4tj6et-1508"
-                        },
-                        {
-                          "tag": "a",
-                          "classes": [
-                            "cvm-hero__call"
-                          ],
-                          "attrs": {
-                            "builder-data-element": "link",
-                            "href": "tel:07748601792"
-                          },
-                          "text": "07748 601792",
-                          "name": "call",
-                          "id": "a-mw4tj6et-1509"
-                        }
-                      ]
-                    },
-                    {
-                      "tag": "div",
-                      "classes": [
-                        "cvm-hero__proof"
-                      ],
-                      "attrs": {
-                        "builder-data-element": "div"
-                      },
-                      "name": "proof",
-                      "id": "div-mw4tj6et-1510",
-                      "children": [
-                        {
-                          "tag": "span",
-                          "classes": [
-                            "cvm-hero__stars"
-                          ],
-                          "attrs": {
-                            "builder-data-element": "span",
-                            "aria-label": "5 out of 5 stars"
-                          },
-                          "text": "★★★★★",
-                          "name": "stars",
-                          "id": "span-mw4tj6et-1511"
-                        },
-                        {
-                          "tag": "p",
-                          "classes": [
-                            "cvm-hero__rating"
-                          ],
-                          "text": "5.00 from 50 published reviews<br>",
-                          "attrs": {
-                            "builder-data-element": "text"
-                          },
-                          "name": "rating",
-                          "id": "p-mw4tj6et-1512",
-                          "children": [
-                            {
-                              "tag": "a",
-                              "classes": [
-                                "cvm-hero__review-link"
-                              ],
-                              "attrs": {
-                                "builder-data-element": "link",
-                                "href": "#reviews"
-                              },
-                              "text": "See what C.V.M customers say",
-                              "name": "review link",
-                              "id": "a-mw4tj6et-1513"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "tag": "div",
-                  "classes": [
-                    "cvm-hero__visual"
-                  ],
-                  "attrs": {
-                    "builder-data-element": "div"
-                  },
-                  "name": "visual",
-                  "id": "div-mw4tj6et-1514",
-                  "children": [
-                    {
-                      "tag": "img",
-                      "classes": [
-                        "cvm-hero__image"
-                      ],
-                      "attrs": {
-                        "builder-data-element": "image",
-                        "src": "/uploads/pexels-jorge-fakhouri-filho-861811-2701660.jpg",
-                        "alt": "Contemporary bathroom with a freestanding bath, shower and warm textured finishes",
-                        "width": "1200",
-                        "height": "1200",
-                        "loading": "eager",
-                        "fetchpriority": "high"
-                      },
-                      "name": "image",
-                      "id": "img-mw4tj6et-1515"
-                    },
-                    {
-                      "tag": "div",
-                      "classes": [
-                        "cvm-hero__image-caption"
-                      ],
-                      "attrs": {
-                        "builder-data-element": "div"
-                      },
-                      "name": "image caption",
-                      "id": "div-mw4tj6et-1516",
-                      "children": [
-                        {
-                          "tag": "span",
-                          "classes": [
-                            "cvm-hero__caption-title"
-                          ],
-                          "text": "Your space. Reimagined.",
-                          "attrs": {
-                            "builder-data-element": "span"
-                          },
-                          "name": "caption title",
-                          "id": "span-mw4tj6et-1517"
-                        },
-                        {
-                          "tag": "span",
-                          "classes": [
-                            "cvm-hero__caption-detail"
-                          ],
-                          "text": "DESIGN · FITTING · FINISHING",
-                          "attrs": {
-                            "builder-data-element": "span"
-                          },
-                          "name": "caption detail",
-                          "id": "span-mw4tj6et-1518"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "section",
-          "classes": [
             "cvm-services"
           ],
           "attrs": {
@@ -1915,7 +1672,7 @@
                           "classes": [
                             "cvm-services__title"
                           ],
-                          "text": "One bathroom.<br>Every detail considered.",
+                          "text": "One bathroom.<br>Every detail considered. TEST THIS IS NOW THE H1",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
@@ -3991,9 +3748,10 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "fade50b4d38b98de*1a4dca6f971402a4",
+    "src/pages/index.astro": "64c858741c8e12a1*4c9f19e24f67e181",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
+    "src/styles/generated/global.css": "ef5103f18e88864c",
     "src/styles/generated/pages/index.css": "52d9a0605325dada",
     "src/styles/generated/templates/tpl-mw4sf65b-1.css": "ccc371e075362013"
   }
