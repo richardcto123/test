@@ -25,7 +25,7 @@
       "modules": {},
       "colors": {
         "primary": {
-          "hex": "#0D53B9",
+          "hex": "#b90d3c",
           "on": true
         },
         "secondary": {
@@ -37,11 +37,11 @@
           "on": false
         },
         "accent": {
-          "hex": "#0D53B9",
+          "hex": "#4c0eda",
           "on": true
         },
         "base": {
-          "hex": "#152335",
+          "hex": "#32b81e",
           "on": true
         },
         "neutral": {
@@ -4069,7 +4069,7 @@
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
     "src/pages/index.astro": "5fe4968aaf2c13a6*703606006635377a",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
-    "src/styles/generated/framework.css": "f065543a6930b56a",
+    "src/styles/generated/framework.css": "db1b0ce5d030a0e3",
     "src/styles/generated/pages/index.css": "52d9a0605325dada",
     "src/styles/generated/templates/tpl-mw4sf65b-1.css": "ccc371e075362013"
   }
