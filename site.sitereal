@@ -1672,7 +1672,7 @@
                           "classes": [
                             "cvm-services__title"
                           ],
-                          "text": "this is a test ttest test",
+                          "text": "this is a 2nd test",
                           "attrs": {
                             "builder-data-element": "heading"
                           },
@@ -3748,7 +3748,7 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "d78d486c1cc72f3c*0f4bda3f3a1cd59b",
+    "src/pages/index.astro": "3d6ac5f5c2c7e720*7c734461600aeec4",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
     "src/styles/generated/global.css": "ef5103f18e88864c",
