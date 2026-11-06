@@ -1651,28 +1651,26 @@
                       "id": "p-mw4tj6et-1503"
                     },
                     {
+                      "id": "r-h1-3m4",
                       "tag": "h1",
                       "classes": [
                         "cvm-hero__title"
                       ],
-                      "text": "This is a test of a test i love burger nips lalalal<br>",
                       "attrs": {
                         "builder-data-element": "heading"
                       },
-                      "name": "title",
-                      "id": "h1-mw4tj6et-1504",
+                      "text": "This is a test of a test i love burger nips lalalal<br>",
                       "children": [
                         {
+                          "id": "r-span-3m5",
                           "tag": "span",
                           "classes": [
                             "cvm-hero__highlight"
                           ],
-                          "text": "Built around you.",
                           "attrs": {
                             "builder-data-element": "span"
                           },
-                          "name": "highlight",
-                          "id": "span-mw4tj6et-1505"
+                          "text": "Built around you."
                         }
                       ]
                     },
@@ -1850,80 +1848,6 @@
                       ]
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tag": "section",
-          "classes": [
-            "cvm-trust"
-          ],
-          "attrs": {
-            "builder-data-element": "section"
-          },
-          "name": "cvm trust",
-          "id": "section-mw4tj6et-1519",
-          "children": [
-            {
-              "tag": "div",
-              "classes": [
-                "cvm-trust__container"
-              ],
-              "attrs": {
-                "builder-data-element": "div"
-              },
-              "name": "container",
-              "id": "div-mw4tj6et-1520",
-              "children": [
-                {
-                  "tag": "span",
-                  "classes": [
-                    "cvm-trust__item"
-                  ],
-                  "text": "✓ Based in Solihull",
-                  "attrs": {
-                    "builder-data-element": "span"
-                  },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1521"
-                },
-                {
-                  "tag": "span",
-                  "classes": [
-                    "cvm-trust__item"
-                  ],
-                  "text": "✓ Family-run business",
-                  "attrs": {
-                    "builder-data-element": "span"
-                  },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1522"
-                },
-                {
-                  "tag": "span",
-                  "classes": [
-                    "cvm-trust__item"
-                  ],
-                  "text": "✓ Established since 2005",
-                  "attrs": {
-                    "builder-data-element": "span"
-                  },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1523"
-                },
-                {
-                  "tag": "span",
-                  "classes": [
-                    "cvm-trust__item"
-                  ],
-                  "text": "✓ Design through to installation",
-                  "attrs": {
-                    "builder-data-element": "span"
-                  },
-                  "name": "item",
-                  "id": "span-mw4tj6et-1524"
                 }
               ]
             }
@@ -4067,7 +3991,7 @@
     "src/components/TreatmentCard.astro": "4d62a2e2405228eb",
     "src/layouts/MainLayout.astro": "2744cd48e459f9f8",
     "src/layouts/Template404Layout.astro": "ae088b9e70092dc2",
-    "src/pages/index.astro": "4974f46fbae07723*7aa3242bca34da17",
+    "src/pages/index.astro": "71aa3f0d38bfcacf*a165ee8fabdb8afc",
     "src/snippets/snip-cvm-business-and-faq-structured-data.html": "b60079d9af76c496",
     "src/styles/generated/framework.css": "68570699c8b1c638",
     "src/styles/generated/pages/index.css": "52d9a0605325dada",
